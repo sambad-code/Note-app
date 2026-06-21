@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.add-new-note-container{
+position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: #e3dfdf;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 20rem;
+    width: 20rem;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+}
+.add-new-note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+}
+.add-new-note-p{
+    font-size: 1.5rem;
+}
+.close-btn{
+    border: none;
+    padding: 0.4rem;
+    background-color: aliceblue;
+    
+}
+.hide{
+    display: none;
+}
+
+
+.note-display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+
+
+.noteDiv{
+    
+    width: 40vw;
+    background-color: rgb(195, 192, 192);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.08);
+
+}
+.noteDiv h2{
+    margin-top: 0;
+    color: black;
+    text-align: start;
+    margin: 1vmin;
+
+}
+.noteDiv p {
+    color: black;
+    text-align: start;
+    margin: 1vmin;
+    margin-top: 0;
+
+}
+.hidden{
+display: none;
+}
+.div_one{
+    display: flex;
+    justify-content: end;
+}
+.edit-btn {
+    border: none;
+    margin: 1vmin;
+    cursor: pointer;
+}
+.delete-btn{
+    border: none;
+    margin: 1vmin;
+    margin-left: none;
+    cursor: pointer;
+}
+.add-note{
+    border: none;
+    font-size: 1rem;
+    padding: 1vmin;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+.mode{
+    border: none;
+    font-size: 1rem;
+    padding: 1vmin;
+    cursor: pointer;
+    opacity: 0.8;
+    margin: 1rem;
+    border-radius: 3px;
+
+}
+.enter-note-title p {
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+.note-title{
+    width: 90%;
+    padding: 1vmin;
+    margin: 1vmin;
+    margin-left: 0;
+    font-size: 3vmin;
+    
+}
+.enter-note-content p {
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+.note-content{
+    width: 90%;
+        padding: 1vmin;
+    margin: 1vmin;
+    margin-left: 0;
+    font-size: 2vmin;
+    height: 5rem;
+
+}
+.last-part button {
+        border: none;
+    font-size: 1rem;
+    padding: 1vmin;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 3px;
+
+}
